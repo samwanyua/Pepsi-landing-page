@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="/Images/images/logo.png" class="logo" alt=""></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>That's what<br><span>I like</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Perspiciatis porro libero sapiente dolorem aspernatur repudiandae dicta, 
+                debitis totam adipisci harum similique quo consectetur impedit doloribus, 
+                at eius ullam ipsam asperiores.</p>
+               
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgbox">
+                <img class="pepsi" src="Images/images/pepsi001.png" alt="pepsi">
+            </div>
+        </div>
+        <ul class="thumbs">
+            <li><img src="Images/images/pepsi001.png" alt="pepsi" onclick="imgSlider('Images/images/pepsi001.png'); changeBgColor('#0062be')" ></li>
+            <li><img src="Images/images/pepsi002.png" alt="pepsi" onclick="imgSlider('Images/images/pepsi002.png'); changeBgColor('#e60c2c')"></li>
+            <li><img src="Images/images/pepsi003.png" alt="pepsi" onclick="imgSlider('Images/images/pepsi003.png'); changeBgColor('#1e1e1e')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="Images/images/facebook.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="Images/images/instagram.png" alt="instagram"></a></li>
+            <li><a href="#"><img src="Images/images/twitter.png" alt="twitter"></a></li>
+        </ul>
+    </section>
+</body>
+</html>
